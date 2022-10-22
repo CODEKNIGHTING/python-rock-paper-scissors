@@ -27,6 +27,12 @@ while True:
     elif userchioce == "scissors" and computerchioce == "paper":
         print("you won")
         userwins += 1
+    elif userchioce == "rock" and computerchioce == "rock":
+        print("tied")
+    elif userchioce == "paper" and computerchioce == "paper":
+        print("tied")
+    elif userchioce == "scissors" and computerchioce == "scissors":
+        print("tied")
 
     else:
         print("you lose")
